@@ -133,17 +133,61 @@ osc = SineWaveGenerator()
 # BUTTON EVENTS
 
 def c(event):
-    #global sw
-    #global selection
-    #sw = SineWave(pitch=0)
-    global osc
     osc.set_pitch(0)
+    osc.play()
+
+def csharp(event):
+    osc.set_pitch(1)
+    osc.play()
+
+def d(event):
+    osc.set_pitch(2)
+    osc.play()
+
+def dsharp(event):
+    osc.set_pitch(3)
+    osc.play()
+
+def e(event):
+    osc.set_pitch(4)
+    osc.play()
+
+def f(event):
+    osc.set_pitch(5)
+    osc.play()
+
+def fsharp(event):
+    osc.set_pitch(6)
+    osc.play()
+
+def g(event):
+    osc.set_pitch(7)
+    osc.play()
+
+def gsharp(event):
+    osc.set_pitch(8)
+    osc.play()
+
+def a(event):
+    osc.set_pitch(9)
+    osc.play()
+
+def asharp(event):
+    osc.set_pitch(10)
+    osc.play()
+
+def b(event):
+    osc.set_pitch(11)
     osc.play()
 
 def stop(event):
     osc.stop()
 
 icon1 = tk.PhotoImage(file='assets/leftkey.png')
+icon2 = tk.PhotoImage(file='assets/middlekey.png')
+icon3 = tk.PhotoImage(file='assets/rightkey.png')
+icon4 = tk.PhotoImage(file='assets/blackkey.png')
+icon5 = tk.PhotoImage(file='assets/whitekey.png')
 
 c_note = tk.Button(
     root,
@@ -153,5 +197,107 @@ c_note = tk.Button(
 c_note.place(x=10,y=240)
 c_note.bind('<ButtonPress-1>', c)
 c_note.bind('<ButtonRelease-1>', stop)
+
+d_note = tk.Button(
+    root,
+    image=icon2
+)
+
+d_note.place(x=110,y=240)
+d_note.bind('<ButtonPress-1>', d)
+d_note.bind('<ButtonRelease-1>', stop)
+
+csharp_note = tk.Button(
+    root,
+    image=icon4
+)
+
+csharp_note.place(x=70,y=240)
+csharp_note.bind('<ButtonPress-1>', csharp)
+csharp_note.bind('<ButtonRelease-1>', stop)
+
+e_note = tk.Button(
+    root,
+    image=icon3
+)
+
+e_note.place(x=210,y=240)
+e_note.bind('<ButtonPress-1>', e)
+e_note.bind('<ButtonRelease-1>', stop)
+
+dsharp_note = tk.Button(
+    root,
+    image=icon4
+)
+
+dsharp_note.place(x=170,y=240)
+dsharp_note.bind('<ButtonPress-1>', dsharp)
+dsharp_note.bind('<ButtonRelease-1>', stop)
+
+f_note = tk.Button(
+    root,
+    image=icon1
+)
+
+f_note.place(x=310,y=240)
+f_note.bind('<ButtonPress-1>', f)
+f_note.bind('<ButtonRelease-1>', stop)
+
+g_note = tk.Button(
+    root,
+    image=icon1
+)
+
+g_note.place(x=410,y=240)
+g_note.bind('<ButtonPress-1>', g)
+g_note.bind('<ButtonRelease-1>', stop)
+
+fsharp_note = tk.Button(
+    root,
+    image=icon4
+)
+
+fsharp_note.place(x=370,y=240)
+fsharp_note.bind('<ButtonPress-1>', fsharp)
+fsharp_note.bind('<ButtonRelease-1>', stop)
+
+a_note = tk.Button(
+    root,
+    image=icon1
+)
+
+a_note.place(x=510,y=240)
+a_note.bind('<ButtonPress-1>', a)
+a_note.bind('<ButtonRelease-1>', stop)
+
+gsharp_note = tk.Button(
+    root,
+    image=icon4
+)
+
+gsharp_note.place(x=470,y=240)
+gsharp_note.bind('<ButtonPress-1>', gsharp)
+gsharp_note.bind('<ButtonRelease-1>', stop)
+
+b_note = tk.Button(
+    root,
+    image=icon3
+)
+
+b_note.place(x=610,y=240)
+b_note.bind('<ButtonPress-1>', b)
+b_note.bind('<ButtonRelease-1>', stop)
+
+asharp_note = tk.Button(
+    root,
+    image=icon4
+)
+
+asharp_note.place(x=570,y=240)
+asharp_note.bind('<ButtonPress-1>', asharp)
+asharp_note.bind('<ButtonRelease-1>', stop)
+
+root.mainloop()
+
 
 root.mainloop()
