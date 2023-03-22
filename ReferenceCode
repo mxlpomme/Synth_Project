@@ -445,11 +445,11 @@ r3.pack(side = 'top')
 
 #icon1 = tk.PhotoImage(file='whitekey.png')
 #icon2 = tk.PhotoImage(file='Blackkey.png')
-icon1 = tk.PhotoImage(file='leftkey.png')
-icon2 = tk.PhotoImage(file='middlekey.png')
-icon3 = tk.PhotoImage(file='rightkey.png')
-icon4 = tk.PhotoImage(file='blackkey.png')
-icon5 = tk.PhotoImage(file='whitekey.png')
+icon1 = tk.PhotoImage(file='assets/leftkey.png')
+icon2 = tk.PhotoImage(file='assets/middlekey.png')
+icon3 = tk.PhotoImage(file='assets/rightkey.png')
+icon4 = tk.PhotoImage(file='assets/blackkey.png')
+icon5 = tk.PhotoImage(file='assets/whitekey.png')
 
 c_note = tk.Button(
     root,
