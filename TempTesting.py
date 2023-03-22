@@ -116,8 +116,8 @@ class SineWaveGenerator:
         sinewave_array = new_amplitude_array * np.sin(2*np.pi*new_phase_array)
         
         # Update frequency and amplitude
-        self.frequency = new_frequency_array[-1]
-        self.amplitude = new_amplitude_array[-1]
+        #self.frequency = new_frequency_array[-1]
+        #self.amplitude = new_amplitude_array[-1]
 
         # Update phase (getting rid of extra cycles, so we don't eventually have an overflow error)
         self.phase = new_phase_array[-1] % 1
