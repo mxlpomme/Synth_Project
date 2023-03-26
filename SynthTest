@@ -183,11 +183,10 @@ def b(event):
 def stop(event):
     osc.stop()
 
-icon1 = tk.PhotoImage(file='assets/leftkey.png')
-icon2 = tk.PhotoImage(file='assets/middlekey.png')
-icon3 = tk.PhotoImage(file='assets/rightkey.png')
-icon4 = tk.PhotoImage(file='assets/blackkey.png')
-icon5 = tk.PhotoImage(file='assets/whitekey.png')
+icon1 = tk.PhotoImage(file='assets/whitekey2.png')
+icon2 = tk.PhotoImage(file='assets/blackkey.png')
+
+
 
 c_note = tk.Button(
     root,
@@ -200,7 +199,7 @@ c_note.bind('<ButtonRelease-1>', stop)
 
 d_note = tk.Button(
     root,
-    image=icon2
+    image=icon1
 )
 
 d_note.place(x=110,y=240)
@@ -209,7 +208,7 @@ d_note.bind('<ButtonRelease-1>', stop)
 
 csharp_note = tk.Button(
     root,
-    image=icon4
+    image=icon2
 )
 
 csharp_note.place(x=70,y=240)
@@ -218,7 +217,7 @@ csharp_note.bind('<ButtonRelease-1>', stop)
 
 e_note = tk.Button(
     root,
-    image=icon3
+    image=icon1
 )
 
 e_note.place(x=210,y=240)
@@ -227,7 +226,7 @@ e_note.bind('<ButtonRelease-1>', stop)
 
 dsharp_note = tk.Button(
     root,
-    image=icon4
+    image=icon2
 )
 
 dsharp_note.place(x=170,y=240)
@@ -254,7 +253,7 @@ g_note.bind('<ButtonRelease-1>', stop)
 
 fsharp_note = tk.Button(
     root,
-    image=icon4
+    image=icon2
 )
 
 fsharp_note.place(x=370,y=240)
@@ -272,7 +271,7 @@ a_note.bind('<ButtonRelease-1>', stop)
 
 gsharp_note = tk.Button(
     root,
-    image=icon4
+    image=icon2
 )
 
 gsharp_note.place(x=470,y=240)
@@ -281,7 +280,7 @@ gsharp_note.bind('<ButtonRelease-1>', stop)
 
 b_note = tk.Button(
     root,
-    image=icon3
+    image=icon1
 )
 
 b_note.place(x=610,y=240)
@@ -290,7 +289,7 @@ b_note.bind('<ButtonRelease-1>', stop)
 
 asharp_note = tk.Button(
     root,
-    image=icon4
+    image=icon2
 )
 
 asharp_note.place(x=570,y=240)
