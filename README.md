@@ -1,5 +1,5 @@
 # Synth Project
-Attempting to make a basic playable synthesizer using Python Tkinter and other modules.
+Attempting to make a basic playable synthesizer using Python Tkinter and other modules.<br>
 Based on PySineWave's wave generator and playing functions.
 
 # System Requirements
