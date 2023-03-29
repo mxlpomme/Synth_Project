@@ -1,6 +1,6 @@
 # Synth Project
 Attempting to make a basic playable synthesizer using Python Tkinter and other modules.<br>
-Based on PySineWave's wave generator and playing functions.
+Based on [PySineWave](https://pypi.org/project/pysinewave/0.0.6/)'s wave generator and playing functions.
 
 # System Requirements
 Please make sure to have the following installed:
