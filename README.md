@@ -13,6 +13,7 @@ Launch synth.pi<br>
 As of now, the synth features an on-screen keyboard with one octave of piano keys.<br>
 Each key plays a sine wave of the applicable pitch when clicked with the computer mouse.
 
+https://user-images.githubusercontent.com/123264102/233141925-78975e29-53ea-4b88-b27e-c95231d616f9.mov
 
 # Future Updates
 Space has been reserved for buttons adding new features to be potentially added
