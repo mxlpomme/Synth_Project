@@ -3,6 +3,7 @@ import numpy as np
 import sounddevice as sd
 import time; import sys
 
+
 # Defined Variables
 
 mid_c_frequency = 261.625565
