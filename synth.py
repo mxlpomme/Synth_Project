@@ -291,7 +291,6 @@ asharp_note.place(x=570, y=240)
 asharp_note.bind("<ButtonPress-1>", asharp)
 asharp_note.bind("<ButtonRelease-1>", stop)
 
-root.mainloop()
-
+root.resizable(False, False)
 
 root.mainloop()
