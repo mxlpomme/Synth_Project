@@ -20,7 +20,7 @@ Please make sure to have the following installed:
   * pip install [SoundDevice](https://python-sounddevice.readthedocs.io/en/0.4.6/installation.html)
 
 # Usage
-### Launch synth.pi
+### Launch synth.py
 <br>
 
 <img width="725" alt="Screenshot 2023-03-29 at 2 00 54 PM" src="https://user-images.githubusercontent.com/123264102/228667180-4a6b68ea-4946-46e0-8ba6-4fef47386252.png">
